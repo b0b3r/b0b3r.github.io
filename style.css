@@ -169,7 +169,7 @@ color: #C4C4C4;
 
 #button_primary {
   height: 48px;
-  background-color: shopper-red;
+  background-color: var(--shopper-red);
   border-radius: 4px;
 
   display: flex;
