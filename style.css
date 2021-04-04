@@ -28,7 +28,7 @@ html, body {
 
 div {
   font-family: Roboto;
-  color: #3E3E3E;
+  color: var(--grey8);
 }
 
 #timeslot {
