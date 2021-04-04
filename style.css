@@ -1,8 +1,15 @@
 
 
 $ShopperRed: #ff5000;
-
-
+$ShopperWhite : #FFFFFF;
+$Grey1: #EFEFEF;
+$Grey2: #F7F7F7;
+$Grey3: #EFEFEF;
+$Grey4: #DCDCDC;
+$Grey5: #C4C4C4;
+$Grey6: #8C8C8C;
+$Grey7: #6E6E6E;
+$Grey8: #3E3E3E;
 
 
 html, body {
@@ -28,9 +35,9 @@ padding: 6px;
 
 height: 44px;
 
-background: #F7F7F7;
+background: Grey2;
 
-border: 1px solid #8C8C8C;
+border: 1px solid Grey6;
 box-sizing: border-box;
 border-radius: 4px;
 }
@@ -103,7 +110,7 @@ color: #C4C4C4;
   align-items: flex-start;
   padding: 8px;
   grid-row-gap: 8px;
-  background-color: #EFEFEF;
+  background-color: Grey1;
   /*border: 1px solid #8C8C8C;*/
 
 }
