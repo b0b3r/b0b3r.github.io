@@ -188,12 +188,12 @@ button {
 
 }
 
-button:active  {
+button.primary:active  {
   transition: .4s;
 }
 
 
-button:hover{
+button.primary:hover{
 
   background-color: var(--shopper-primary-dark);
   transition: .4s;
@@ -202,7 +202,7 @@ button:hover{
 
 }
 
-button:pressed{
+button.primary:focus{
 
   background-color: var(--shopper-primary-dark);
   border: 0px;
