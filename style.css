@@ -70,6 +70,7 @@ color: #C4C4C4;
   flex-direction: column;
   grid-row-gap: 16px;
   padding: 16px;
+  margin: 0;
 
   background-color: #FFFFFF;
   border-radius: 4px;
