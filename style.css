@@ -1,25 +1,25 @@
 
 
 :root{
-    --primary-color: #B1D7DC;
-    --accent-color: #FF3F90;
-    --shopper-red: #ff5000; 
+
+    --shopper-primary: #ff5000; 
+    --shopperWhite : #FFFFFF;
+    --grey1: #EFEFEF;
+    --grey2: #F7F7F7;
+    --grey3: #EFEFEF;
+    --grey4: #DCDCDC;
+    --grey5: #C4C4C4;
+    --grey6: #8C8C8C;
+    --grey7: #6E6E6E;
+    --grey8: #3E3E3E;
+
 }
 
 
 
-$ShopperRed: #ff5000;
-$ShopperWhite : #FFFFFF;
-$Grey1: #EFEFEF;
-$Grey2: #F7F7F7;
-$Grey3: #EFEFEF;
-$Grey4: #DCDCDC;
-$Grey5: #C4C4C4;
-$Grey6: #8C8C8C;
-$Grey7: #6E6E6E;
-$Grey8: #3E3E3E;
 
-$textC: #333333;
+
+
 
 
 html, body {
@@ -45,9 +45,9 @@ padding: 6px;
 
 height: 44px;
 
-background: $Grey2;
+background: var(--grey2);
 
-border: 1px solid $Grey6;
+border: 1px solid var(--grey6);
 box-sizing: border-box;
 border-radius: 4px;
 }
@@ -106,7 +106,7 @@ color: #C4C4C4;
   grid-row-gap: 16px;
   padding: 16px;
 
-  background-color: #EFEFEF;
+  background-color: var(--grey3);;
   border-radius: 4px;
 }
 
@@ -169,7 +169,7 @@ color: #C4C4C4;
 
 #button_primary {
   height: 48px;
-  background-color: var(--shopper-red);
+  background-color: var(--shopper-main);
   border-radius: 4px;
 
   display: flex;
