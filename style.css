@@ -5,6 +5,10 @@
     --shopper-primary: #ff5000; 
     --shopper-primary-dark: #f2490c; 
     --shopper-primary-ligth: #FFD8C4;
+    --shopper-primary-ligth-light: #fff5f0;
+
+    --shopper-orange: #FF6B00; 
+
     --shopperWhite : #FFFFFF;
     --grey1: #EFEFEF;
     --grey2: #F7F7F7;
@@ -21,18 +25,19 @@
 /*-----------------------------------------------------------------------*/
 
 
-html, body {
+html, body, button {
 /* width: 360px;
   display: flex;
   justify-content: center;
   align-items: center; */
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 div {
-  font-family: Roboto;
   color: var(--grey8);
+  font-family: Roboto;
 }
 
 
@@ -206,9 +211,14 @@ color: var(--grey5);
 
 
 button.primary {
+
+  border: 1px solid var(--shopper-primary);
+
+
   height: 48px;
   background-color: var(--shopper-primary);
   border-radius: 4px;
+
 
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +232,6 @@ button.primary {
   font-size: 18px;
   padding-bottom: 2px;
 
-  border: 0px;
   box-shadow: none;
 
   transition: .4s;
@@ -236,17 +245,16 @@ button.primary:active  {
 
 button.primary:hover{
 
-  background-color: var(--shopper-primary-dark);
+  border: 1px solid var(--shopper-primary);
+  background-color: var(--shopper-orange);
   transition: .4s;
-  border: 0px;
   box-shadow: none;
 
 }
 
 button.primary:focus{
 
-  background-color: var(--shopper-primary-dark);
-  border: 0px;
+  background-color: var(--shopper-orange);
   box-shadow: none;
 
 }
@@ -269,9 +277,31 @@ button.secondary {
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 2px;
+
+  transition: .4s;
+
+}
+
+button.secondary  :active  {
+  transition: .4s;
 }
 
 
+button.secondary:hover{
+
+  background-color: var(--shopper-primary-ligth-light);
+  transition: .4s;
+  box-shadow: none;
+
+}
+
+button.secondary:focus{
+
+  background-color: var(--shopper-primary-ligth-light);
+  border: 0px;
+  box-shadow: none;
+
+}
 
 
 
