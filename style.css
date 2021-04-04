@@ -3,7 +3,7 @@
 :root{
     --primary-color: #B1D7DC;
     --accent-color: #FF3F90;
-    --ShopperRed: #ff5000; 
+    --shopper-red: #ff5000; 
 }
 
 
@@ -169,7 +169,7 @@ color: #C4C4C4;
 
 #button_primary {
   height: 48px;
-  background-color: $ShopperRed;
+  background-color: shopper-red;
   border-radius: 4px;
 
   display: flex;
@@ -234,13 +234,6 @@ color: #C4C4C4;
   color: #ff5500;
 }
 
-
-
-
-.select {}
-.loading {}
-.item {}
-.icon {}
 
 
 
