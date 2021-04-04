@@ -1,5 +1,13 @@
 
 
+:root{
+    --primary-color: #B1D7DC;
+    --accent-color: #FF3F90;
+    --ShopperRed: #ff5000; 
+}
+
+
+
 $ShopperRed: #ff5000;
 $ShopperWhite : #FFFFFF;
 $Grey1: #EFEFEF;
@@ -10,6 +18,8 @@ $Grey5: #C4C4C4;
 $Grey6: #8C8C8C;
 $Grey7: #6E6E6E;
 $Grey8: #3E3E3E;
+
+$textC: #333333;
 
 
 html, body {
