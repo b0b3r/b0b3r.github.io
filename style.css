@@ -1,5 +1,10 @@
 
 
+$ShopperRed: #ff5000;
+
+
+
+
 html, body {
 /* width: 360px;
   display: flex;
@@ -147,7 +152,7 @@ color: #C4C4C4;
 
 #button_primary {
   height: 48px;
-  background-color: #ff5500;
+  background-color: ShopperRed;
   border-radius: 4px;
 
   display: flex;
