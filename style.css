@@ -17,11 +17,6 @@
 
 
 
-
-
-
-
-
 html, body {
 /* width: 360px;
   display: flex;
@@ -120,7 +115,7 @@ color: #C4C4C4;
   align-items: flex-start;
   padding: 8px;
   grid-row-gap: 8px;
-  background-color: Grey1;
+  background-color: var(--grey1);
   /*border: 1px solid #8C8C8C;*/
 
 }
