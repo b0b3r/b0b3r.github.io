@@ -164,7 +164,7 @@ color: #C4C4C4;
 
 #button_primary {
   height: 48px;
-  background-color: var(--shopper-main);
+  background-color: var(--shopper-primary);
   border-radius: 4px;
 
   display: flex;
