@@ -3,7 +3,7 @@
 :root{
 
     --shopper-primary: #ff5000; 
-    --shopper-darkred: #f2490c; 
+    --shopper-primary-dark: #f2490c; 
     --shopperWhite : #FFFFFF;
     --grey1: #EFEFEF;
     --grey2: #F7F7F7;
@@ -163,7 +163,7 @@ color: #C4C4C4;
 }
 
 
-#button_primary {
+button {
   height: 48px;
   background-color: var(--shopper-primary);
   border-radius: 4px;
@@ -179,13 +179,34 @@ color: #C4C4C4;
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 2px;
+
+  border: 0px;
+  box-shadow: none;
+
+  transition: .4s;
+
+}
+
+button:active  {
+  transition: .4s;
 }
 
 
-#button_primary:hover {
-  
-  background-color: ff5555;
-  
+button:hover{
+
+  background-color: var(--shopper-primary-dark);
+  transition: .4s;
+  border: 0px;
+  box-shadow: none;
+
+}
+
+button:pressed{
+
+  background-color: var(--shopper-primary-dark);
+  border: 0px;
+  box-shadow: none;
+
 }
 
 
