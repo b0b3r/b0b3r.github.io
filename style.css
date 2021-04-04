@@ -18,6 +18,8 @@
 }
 
 
+/*-----------------------------------------------------------------------*/
+
 
 html, body {
 /* width: 360px;
@@ -32,6 +34,11 @@ div {
   font-family: Roboto;
   color: var(--grey8);
 }
+
+
+/*-----------------------------------------------------------------------*/
+
+
 
 #timeslot {
 
@@ -164,7 +171,41 @@ color: var(--grey5);
 }
 
 
-button {
+
+/*-----------------------------------------------------------------------*/
+
+
+
+#Text_Medium_500 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#Text_Medium_300 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#Text_Medium_200 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#Text_200 {
+  font-size: 16px;
+}
+
+#Text_100 {
+  font-size: 14px;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
+button.primary {
   height: 48px;
   background-color: var(--shopper-primary);
   border-radius: 4px;
@@ -211,7 +252,7 @@ button.primary:focus{
 }
 
 
-#button_secondary {
+button.secondary {
   height: 48px;
   background-color: #ffffff;
   border-radius: 4px;
@@ -228,30 +269,6 @@ button.primary:focus{
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 2px;
-}
-
-
-#Text_Medium_500 {
-  font-weight: 500;
-  font-size: 22px;
-}
-
-#Text_Medium_300 {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-#Text_Medium_200 {
-  font-weight: 500;
-  font-size: 16px;
-}
-
-#Text_200 {
-  font-size: 16px;
-}
-
-#Text_100 {
-  font-size: 14px;
 }
 
 
