@@ -3,6 +3,7 @@
 :root{
 
     --shopper-primary: #ff5000; 
+    --shopper-darkred: #f2490c; 
     --shopperWhite : #FFFFFF;
     --grey1: #EFEFEF;
     --grey2: #F7F7F7;
@@ -178,6 +179,13 @@ color: #C4C4C4;
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 2px;
+}
+
+
+#button_primary:hover {
+  
+  background-color: var(--shopper-darkred);
+  
 }
 
 
