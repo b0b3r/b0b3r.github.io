@@ -282,7 +282,7 @@ button.secondary {
 
 }
 
-button.secondary  :active  {
+button.secondary:active  {
   transition: .4s;
 }
 
