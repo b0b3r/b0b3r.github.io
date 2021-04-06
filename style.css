@@ -353,7 +353,7 @@ button.secondary:focus{
   padding: 16px;
   margin: 0;
 
-  background-color: var(--grey3);;
+  background-color: #ffffff;
   border-radius: 4px;
 
   border: none;
@@ -362,7 +362,6 @@ button.secondary:focus{
   width: 100%;
 
 }
-
 
 /*Active работает как hover*/
 
@@ -409,6 +408,7 @@ background-color: #770007;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #ffffff;
+  border-radius:  0 0 4px 4px;
 }
 
 
