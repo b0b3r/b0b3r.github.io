@@ -28,7 +28,7 @@
 html, body {
 /* width: 360px; */
   display: flex;
- align-content: space-evenly;
+  align-content: start;
   margin: 0;
   padding: 0;
   font-family: Roboto;
@@ -46,6 +46,7 @@ button {
 }
 
 div {
+  display: grid;
   color: var(--grey8);
   font-family: Roboto;
 }
@@ -432,7 +433,7 @@ background-color: #770007;
 
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.05s ease-out;
+  transition: max-height 0.4s ease-out;
 }
 
 
