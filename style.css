@@ -244,6 +244,8 @@ button.primary {
   font-size: 18px;
   padding-bottom: 2px;
 
+  font-weight: 400;
+
   box-shadow: none;
 
   transition: .4s;
@@ -289,6 +291,8 @@ button.secondary {
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 2px;
+
+  font-weight: 400;
 
   transition: .4s;
 
@@ -391,7 +395,7 @@ button.secondary:focus{
 /*Active работает как hover*/
 
 .collapsible:active {
-background-color: #770007;
+
   /*color: white;*/
   cursor: pointer;
   border: none;
@@ -402,7 +406,7 @@ background-color: #770007;
 /*  padding: 16px;*/
   margin: 0;  
 
-  background-color: #FFFFFF;
+/*  background-color: #FFFFFF;*/
   border-radius: 4px 4px 0 0;
 
 }
@@ -419,7 +423,7 @@ background-color: #770007;
 
 
 .active, {
-    background-color: #f50000;
+   /* background-color: #f50000;*/
 
 
 }
