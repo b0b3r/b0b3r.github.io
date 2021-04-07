@@ -345,12 +345,28 @@ button.secondary:focus{
   border-radius: 4px;
 }
 
+.collapsible_component {
+
+  border-radius: 4px;
+  padding: 16px;
+
+  border: none;
+  outline: none;
+
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
 .collapsible {
 
   display: grid;
   flex-direction: column;
   grid-row-gap: 16px;
-  padding: 16px;
+/*  padding: 16px;*/
   margin: 0;
 
   background-color: #ffffff;
@@ -372,9 +388,9 @@ background-color: #770007;
   border: none;
   outline: none;
 
-   flex-direction: column;
+  flex-direction: column;
   grid-row-gap: 16px;
-  padding: 16px;
+/*  padding: 16px;*/
   margin: 0;  
 
   background-color: #FFFFFF;
@@ -385,14 +401,11 @@ background-color: #770007;
 .collapsible:hover {
     border: none;
     outline: none;
-    border-radius: 4px 4px 0 0;
 }
 
 .collapsible:focus {
-    background-color: #ffffff;
     outline: none;
     border: none;
-    border-radius: 4px 4px 0 0;
 }
 
 
@@ -406,9 +419,7 @@ background-color: #770007;
 /*  padding: 0 16px 0px 16px;*/
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #ffffff;
-  border-radius:  0 0 4px 4px;
+  transition: max-height 0.05s ease-out;
 }
 
 

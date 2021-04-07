@@ -27,6 +27,7 @@
 <!-- Начало блока "Название задачи и оставшееся время на её выполнение" -->
 
 <div>
+
 <div style="display: grid; grid-template-columns: 56px 1fr; grid-column-gap: 16px; padding-bottom: 16px; ">
 
 <div id="icon_wrapper_56"><img src="ic_24_cart.svg" style="width: 24px; height: 24px; margin: 0 auto;"></img></div>
@@ -130,8 +131,9 @@
 
 <!-- Конец второго блока -->
 
-<!-- id="main_wrapper_collapsed" -->
-<div>
+<!-- Начало коллапсирующего компонента -->
+<div class="collapsible_component">
+
 <button class="collapsible">
 	<div style="display: grid; grid-template-columns: 1fr 24px ; grid-column-gap: 16px;">
 	<div id="Text_100" style="color:#8C8C8C; display: flex; flex-wrap: wrap; align-items: center;
@@ -139,12 +141,12 @@
 	<img src="ic_arrow_down.svg" style="width: 24px; height: 24px; margin: 0 auto;"></img>
 </div>
 </button>
+
+
 <div class="content">
-	<div style="padding: 0 16px 16px 16px;">
+	
   
-<div style="display: grid; grid-template-columns: 1fr 56px ; grid-column-gap: 16px;">
-
-
+<div style="display: grid; grid-template-columns: 1fr 56px ; grid-column-gap: 16px; padding-top: 16px;">
 <div style="margin-top: auto; margin-bottom: auto;">
 	<div id="Text_Medium_300" style="color:#8C8C8C; padding-bottom: 4px;">Артём</div>
 	<div id="Text_Medium_300" style="display: flex; flex-wrap: wrap; align-items: center; grid-column-gap: 4px;">8 901 219-01-02
@@ -152,19 +154,40 @@
 	</div>
 </div>
 <div id="icon_wrapper_48_Secondary"><img src="ic_phone.svg" style="width: 24px; height: 24px; margin: 0 auto;"></img></div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Конец коллапсирующего компонента -->
+
+<!-- Начало коллапсирующего компонента -->
+<div class="collapsible_component">
+
+<button class="collapsible">
+	<div style="display: grid; grid-template-columns: 1fr 24px ; grid-column-gap: 16px;">
+	<div id="Text_100" style="color:#8C8C8C; display: flex; flex-wrap: wrap; align-items: center;
+">Темы и сообщения</div>
+	<img src="ic_arrow_down.svg" style="width: 24px; height: 24px; margin: 0 auto;"></img>
+</div>
+</button>
+
+<div class="content">
+	<div style="padding-top: 16px;">
+		<button class="secondary" >Открыть новую тему</button>
+	</div>
+</div>
 
 </div>
 
 
-
-  </div>
-</div>
-</div>
+<!-- Конец коллапсирующего компонента -->
 
 
 <!-- Начало третьего блока -->
 
-<div id="main_wrapper_collapsed">
+<!-- <div id="main_wrapper_collapsed">
 	<div style="display: grid; grid-template-columns: 1fr 24px ; grid-column-gap: 16px;">
 	<div id="Text_100" style="color:#8C8C8C; display: flex; flex-wrap: wrap; align-items: center;
 ">Информация о заказчике</div>
@@ -180,7 +203,7 @@
 ">Темы и сообщения</div>
 	<img src="ic_arrow_down.svg" style="width: 24px; height: 24px; margin: 0 auto;"></img>
 </div>
-</div>
+</div> -->
 
 
 
